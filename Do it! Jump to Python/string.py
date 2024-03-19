@@ -118,35 +118,35 @@ r = "Life is too short"
 print(r.index("t"))
 # print(r.index("k"))
 
-# 문자열 삽입
+# 문자열 삽입 : .join
 print(",".join("abcd"))
 print(",".join(["a", "b", "c", "d"]))
 
-# 소문자 -> 대문자
+# 소문자 -> 대문자 : .upper
 s = "hi"
 print(s.upper())
 
-# 대문자 -> 소문자
+# 대문자 -> 소문자 : .lower
 t = "HI"
 print(t.lower())
 
-# 왼쪽 공백 지우기
+# 왼쪽 공백 지우기 : lstrip
 u = " hi "
 print(u.lstrip())
 
-# 오른쪽 공백 지우기
+# 오른쪽 공백 지우기 : rstrip
 v = " hi "
 print(v.rstrip())
 
-# 양쪽 공백 지우기
+# 양쪽 공백 지우기 : strip
 w = " hi "
 print(w.strip())
 
-# 문자열 바꾸기
+# 문자열 바꾸기 : replace
 x = "Life is too short"
 print(x.replace("Life", "Your leg"))
 
-# 문자열 나누기
+# 문자열 나누기 : split
 y = "Life is too short"
 print(y.split())
 z = "a:b:c:d"
